@@ -1,14 +1,17 @@
 <template>
   <the-header></the-header>
+  <hero-section></hero-section>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader';
+import HeroSection from './pages/home/HeroSection';
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    HeroSection
   }
 }
 </script>

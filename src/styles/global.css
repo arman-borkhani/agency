@@ -50,3 +50,34 @@ h6 {
     display: inline-block !important;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+/* ========== Grid ========== */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row [class^="col-"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col--12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .col--lg-6 {
+    flex: 0 0 50%;
+  }
+}
