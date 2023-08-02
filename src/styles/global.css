@@ -1,0 +1,37 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #1b2a4e;
+  --secondary: #42ba96;
+  --gray: #f8f9fa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--gray);
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
