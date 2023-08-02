@@ -38,3 +38,15 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* ========== Utilities ========== */
+
+.d-none {
+  display: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-inline-block {
+    display: inline-block !important;
+  }
+}

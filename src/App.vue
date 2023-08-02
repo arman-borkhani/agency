@@ -1,6 +1,15 @@
+<template>
+  <the-header></the-header>
+</template>
+
 <script>
+import TheHeader from './components/TheHeader';
+
 export default {
   name: 'App',
+  components: {
+    TheHeader
+  }
 }
 </script>
 
