@@ -3,6 +3,7 @@
   <hero-section></hero-section>
   <about-section></about-section>
   <values-section></values-section>
+  <services-section></services-section>
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import TheHeader from './components/TheHeader';
 import HeroSection from './pages/home/HeroSection';
 import AboutSection from './pages/home/AboutSection';
 import ValuesSection from './pages/home/ValuesSection';
+import ServicesSection from './pages/home/ServicesSection';
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     TheHeader,
     HeroSection,
     AboutSection,
-    ValuesSection
+    ValuesSection,
+    ServicesSection
   }
 }
 </script>
