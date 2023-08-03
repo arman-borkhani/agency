@@ -4,6 +4,7 @@
   <about-section></about-section>
   <values-section></values-section>
   <services-section></services-section>
+  <testimonials-section></testimonials-section>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import HeroSection from './pages/home/HeroSection';
 import AboutSection from './pages/home/AboutSection';
 import ValuesSection from './pages/home/ValuesSection';
 import ServicesSection from './pages/home/ServicesSection';
+import TestimonialsSection from './pages/home/TestimonialsSection';
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     HeroSection,
     AboutSection,
     ValuesSection,
-    ServicesSection
+    ServicesSection,
+    TestimonialsSection
   }
 }
 </script>
