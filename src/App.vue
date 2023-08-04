@@ -6,6 +6,7 @@
   <services-section></services-section>
   <testimonials-section></testimonials-section>
   <callout-section></callout-section>
+  <posts-section></posts-section>
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import ValuesSection from './pages/home/ValuesSection';
 import ServicesSection from './pages/home/ServicesSection';
 import TestimonialsSection from './pages/home/TestimonialsSection';
 import CalloutSection from './pages/home/CalloutSection';
+import PostsSection from './pages/home/PostsSection';
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     ValuesSection,
     ServicesSection,
     TestimonialsSection,
-    CalloutSection
+    CalloutSection,
+    PostsSection,
   }
 }
 </script>
