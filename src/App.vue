@@ -8,6 +8,7 @@
   <callout-section></callout-section>
   <posts-section></posts-section>
   <newsletter-section></newsletter-section>
+  <the-footer></the-footer>
 </template>
 
 <script>
@@ -20,6 +21,7 @@ import TestimonialsSection from './pages/home/TestimonialsSection';
 import CalloutSection from './pages/home/CalloutSection';
 import PostsSection from './pages/home/PostsSection';
 import NewsletterSection from './pages/home/NewsletterSection.vue';
+import TheFooter from './components/TheFooter.vue';
 
 export default {
   name: 'App',
@@ -32,7 +34,8 @@ export default {
     TestimonialsSection,
     CalloutSection,
     PostsSection,
-    NewsletterSection
+    NewsletterSection,
+    TheFooter
   }
 }
 </script>

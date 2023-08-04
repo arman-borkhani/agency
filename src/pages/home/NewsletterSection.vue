@@ -39,7 +39,7 @@
 
 .newsletter-sec__inner {
   padding-top: 7rem;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
   text-align: center;
 }
 
