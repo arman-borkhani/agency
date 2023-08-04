@@ -7,6 +7,7 @@
   <testimonials-section></testimonials-section>
   <callout-section></callout-section>
   <posts-section></posts-section>
+  <newsletter-section></newsletter-section>
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import ServicesSection from './pages/home/ServicesSection';
 import TestimonialsSection from './pages/home/TestimonialsSection';
 import CalloutSection from './pages/home/CalloutSection';
 import PostsSection from './pages/home/PostsSection';
+import NewsletterSection from './pages/home/NewsletterSection.vue';
 
 export default {
   name: 'App',
@@ -30,6 +32,7 @@ export default {
     TestimonialsSection,
     CalloutSection,
     PostsSection,
+    NewsletterSection
   }
 }
 </script>
