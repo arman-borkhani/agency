@@ -68,21 +68,21 @@
 
 <style scoped>
 .services-sec {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   background-color: var(--white);
 }
 
 .services-sec__inner {
-  padding-top: 6rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .services-sec::before,
 .services-sec::after {
   content: "";
   display: block;
-  height: 5rem;
+  height: 3rem;
   width: 100%;
 }
 
@@ -134,6 +134,21 @@
 }
 
 @media screen and (min-width: 992px) {
+  .services-sec {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .services-sec__inner {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+
+  .services-sec::before,
+  .services-sec::after {
+    height: 5rem;
+  }
+
   .services-sec__title {
     font-size: 2.5rem;
   }
