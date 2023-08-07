@@ -55,12 +55,12 @@
 }
 
 .hero-sec__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 130%;
 }
 
 .hero-sec__desc {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 170%;
   margin-bottom: 2.5rem;
 }
@@ -89,6 +89,7 @@
 
   .hero-sec__desc {
     text-align: justify;
+    font-size: 1.25rem;
   }
 
   .hero-sec::after {
