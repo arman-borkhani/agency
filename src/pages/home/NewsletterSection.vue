@@ -24,7 +24,6 @@
 
 <style scoped>
 .newsletter-sec {
-  margin-top: 4rem;
   background-color: var(--primary);
 }
 
@@ -39,7 +38,7 @@
 
 .newsletter-sec__inner {
   padding-top: 7rem;
-  padding-bottom: 20rem;
+  padding-bottom: 18rem;
   text-align: center;
 }
 
@@ -93,6 +92,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .newsletter-sec {
+    margin-top: 4rem;
+  }
+
+  .newsletter-sec__inner {
+    padding-bottom: 20rem;
+  }
+
   .newsletter-sec__title {
     font-size: 3rem;
   }
