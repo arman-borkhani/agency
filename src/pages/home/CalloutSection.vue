@@ -23,8 +23,8 @@
 
 <style scoped>
 .callout-sec {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .callout {
   background-color: var(--primary);
@@ -62,6 +62,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .callout-sec {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .callout__title {
     font-size: 3rem;
     margin-bottom: 1rem;
