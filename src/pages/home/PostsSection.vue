@@ -73,8 +73,8 @@
 
 <style scoped>
 .posts-sec {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .posts-sec__title {
@@ -143,6 +143,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .posts-sec {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
   .posts-sec__title {
     font-size: 2.5rem;
   }
