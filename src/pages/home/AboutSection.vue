@@ -66,13 +66,13 @@
 
 .about-card__title {
   text-align: left;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--blue-900);
   margin-bottom: 2rem;
 }
 
 .about-card__desc {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 200%;
   color: var(--gray-700);
 }
@@ -84,6 +84,14 @@
 @media screen and (min-width: 992px) {
   .about-card__figure {
     margin-bottom: 0;
+  }
+
+  .about-card__title {
+    font-size: 2.5rem;
+  }
+
+  .about-card__desc {
+    font-size: 1.25rem;
   }
 }
 </style>
