@@ -59,8 +59,7 @@
 
 <style scoped>
 .values-sec {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .values-sec__header {
@@ -118,6 +117,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .values-sec {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
   .values-sec__header {
     border-radius: 2rem;
     padding: 5rem 1rem 14rem;
