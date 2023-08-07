@@ -104,8 +104,8 @@ export default {
 
 <style scoped>
 .testimonial-sec {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .testimonial-sec__title {
@@ -176,6 +176,11 @@ export default {
 }
 
 @media screen and (min-width: 992px) {
+  .testimonial-sec {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .testimonial-sec__title {
     font-size: 2.5rem;
   }
