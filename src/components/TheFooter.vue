@@ -59,7 +59,7 @@
 .footer::before {
   content: "";
   display: block;
-  height: 10rem;
+  height: 5rem;
   background: url('../assets/curve-white.svg') bottom/cover no-repeat;
   width: 100%;
 }
@@ -106,6 +106,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer::before {
+    height: 10rem;
+  }
+
   .nav__link {
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
